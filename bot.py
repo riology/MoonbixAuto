@@ -3,7 +3,7 @@ import time
 
 sys.dont_write_bytecode = True
 
-from orrnob_drops_automation import base
+import rio_auto
 from core.token import get_token
 from core.info import get_info
 from core.game import process_play_game
